@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title>GO FAR - Curated Travel Experiences</title>
+    <meta charset="utf-8">
+    <meta name="description" content="My name is Charlie, and I'm a Front End Developer. I'd love to share my passion for programming with you!">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="icon" href="images/origami-bird.png">
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Pro:200,300,400&display=swap" rel="stylesheet">    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css" />    
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link type="text/css" rel="stylesheet" href="css/styles.css" media="screen,projection" />
+    <script src="https://kit.fontawesome.com/e1ce178e9d.js"></script>
+
+  </head>
+  
+  <body>
+
+    <!--MAIN NAVIGATION-->
+    <div class="navbar-fixed">
+      <nav class="main-nav">
+        <div class="nav-wrapper">
+          <img class="logo animated rollIn slow" href="#landing" src="images/origami-bird.png" alt="bird logo" /><a href="index.html" class="brand animated fadeIn slow">GO FAR</a>
+          <a href="#" data-activates="mobile-nav" class="button-collapse"><i class="material-icons">menu</i></a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a class="animated fadeInRight slow" href="#landing">HOME</a></li>
+            <li><a class="animated fadeInRight slow" href="#about">ABOUT</a></li>
+            <li><a class="animated fadeInRight slow" href="#adventures">ADVENTURES</a></li>
+            <li><a class="animated fadeInRight slow" href="#perks">PERKS</a></li>
+            <li><a class="animated fadeInRight slow" href="#contact">CONTACT</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <!--MOBILE NAV-->
+      <ul id="mobile-nav" class="side-nav">
+        <li><a href="#landing">HOME</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#adventures">ADVENTURES</a></li>
+        <li><a href="#perks">PERKS</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+
+    <!--LANDING-->
+  <main>
+    <div class="parallax-container">
+      <div class="container">
+        <div class="column">
+          <div class="col s12 m4 l8">
+            <div id="landing">
+                <h1 class="headline flow-text">Creating forever memories.</h1>
+                <div id="subscribe">
+                  <button id="button" onclick="showEmailInput()" class="button subscribe waves-effect waves-light animated zoomIn" data-js="btn">
+                    LET'S GET LOST
+                  </button>
+                  <input id="email" class="hide animated fadeInDown" type="text" placeholder="Enter your email for special offers" />
+                  <button id="button" class="submit hide animated fadeInDown waves-effect waves-light" type="submit">Subscribe</button>
+                </div>
+              </div>
+            </div>
+          </div>
+            <div class="parallax"><img class="landing" src="images/sanfran.jpeg" alt="golden gate bridge in san francisco">
+          </div>
+      </div>
+    </div>
+
+    <!--ABOUT-->
+      
+      <div class="parallax-container">
+        <div class="container">
+          <div id="about">
+          <div class="row">
+            <div class="col s12 m12 l9">
+              <div id="who">
+                <div class="who wow fadeIn slower">
+                  <h2>At GO FAR, we go to infinity and beyond</h2>
+                  <p class="flow-text">Let's be honest: Planning any form of travel is a hassle. If airports weren't already hard enough, hunting through hotel reviews,
+                    making reservations, finding the best eats - that's a whole lot of baggage to carry. We get that. That's why we've 
+                    made it our mission to make your vacation one that's both memorable and stress-free. You pick your package, and our
+                    team of travel experts take care of the rest. It's never been so easy to say 'yes' to vacation.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="parallax"><img class="snow" src="images/snow.jpg" alt="frozen lake and snowy mountain">
+        </div>
+      </div>
+    </div>
+    
+    <!--ADVENTURES-->
+    <div id="adventures">
+      <div class="container">
+        <h1 id="where" class="flow-text wow fadeIn slow">Where will you go next?</h1>
+        <hr class="wow fadeIn slow">
+        <div class="row">
+          <!--VEGAS-->
+          <div class="col 14 m4 s12">
+            <div class="card wow fadeInLeft">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="images/vegas.jpg" alt="las vegas strip">
+              </div>
+              <div class="card-content">
+                <span class="flow-text card-title activator grey-text text-darken-3">LAS VEGAS<i class="material-icons right">more_vert</i></span>
+                <p class="flow-text"><a href="#">LEARN MORE</a></p>
+              </div>
+              <div class="card-reveal">
+                <span class="flow-text card-title grey-text text-darken-3">Crawl The Vegas Strip<i class="material-icons right">close</i></span>
+                <p class="flow-text">Here is some more information about this product that is only revealed once clicked on.</p>
+              </div>
+            </div>
+          </div>
+
+          <!--NORWAY-->
+          <div class="col 14 m4 s12">
+            <div class="card wow fadeIn">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="images/telluride.jpg" alt="snowy mountain and forest overlooking a lake">
+              </div>
+              <div class="card-content">
+                <span class="flow-text card-title activator grey-text text-darken-3">TELLURIDE<i class="material-icons right">more_vert</i></span>
+                <p class="flow-text"><a href="#">LEARN MORE</a></p>
+              </div>
+              <div class="card-reveal">
+                <span class="flow-text card-title grey-text text-darken-3">Skiing in Telluride, Colorado<i class="material-icons right">close</i></span>
+                <p class="flow-text">Here is some more information about this product that is only revealed once clicked on.</p>
+              </div>
+            </div>
+          </div>
+
+          <!--WASHINGTON, DC-->
+          <div class="col 14 m4 s12">
+            <div class="card wow fadeInRight">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="images/dc2.jpg" alt="jefferson memorial in washington dc">
+              </div>
+              <div class="card-content">
+                <span class="flow-text card-title activator grey-text text-darken-3">WASHINGTON<i class="material-icons right">more_vert</i></span>
+                <p class="flow-text"><a href="#">LEARN MORE</a></p>
+              </div>
+              <div class="card-reveal">
+                <span class="flow-text card-title grey-text text-darken-3">Monument Tour in Washington, DC<i class="material-icons right">close</i></span>
+                <p class="flow-text">Here is some more information about this product that is only revealed once clicked on.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="parallax-container">
+      
+      <div class="parallax"><img src="images/sanfran2.jpg" alt="colorful victorian houses in san francisco"></div>
+    </div>
+
+    <div id="perks">
+      <div class="container">
+          <div class="row">
+
+            <!--AMEN ONE-->
+            <div class="col l4 s12 m4">
+              <div class="card-panel wow fadeInUp slow">
+                <i class="large material-icons">flight</i>
+                <br>
+                <p class="flow-text">Your flight and hotel selections are hand-selected by our team
+                  of travel experts. No more wasting time comparing the best prices across
+                  hundreds of travel websites.
+                </p>
+              </div>
+            </div>
+
+            <!--AMEN TWO-->
+            <div class="col l4 s12 m4">
+              <div class="card-panel wow fadeInUp slow">
+                <i class="large material-icons">local_dining</i>
+                <br>
+                <p class="flow-text">Let our culture insiders at each location give you the most authentic
+                  experience from our lists of top-ranked, local favorites.
+                </p>
+              </div>
+            </div>
+
+            <!--AMEN THREE-->
+            <div class="col l4 s12 m4">
+              <div class="card-panel wow fadeInUp slow">
+                <i class="large material-icons">phonelink</i>
+                <br>
+                <p class="flow-text">Get lost in the wilds? Something not up to your expectations? Our team
+                  is on call 24/7 to help you get the rocks out of your shoes.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <!--CONTACT-->
+    <div id="contact">
+      <footer class="page-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col l6 s12">
+              <h4>New here? Have more questions?</h4>
+              <p class="flow-text newbies">
+              Feel free to contact us directly, or check out our <a class="faq" href="#"><b>FAQ</b></a> page!
+              <h5 class="address">126 Little Arcadia Dr
+                <br>Elkin, NC, 28621</h5></p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+              <h4>Current Customers</h4>
+              <p class="flow-text customers">
+              Head to our <a class="faq" href="#"><b>FAQ</b></a> page for answer to common issues, or click the emergency contact link below to
+              speak with a representative right now!
+              </p>
+              <br>
+              <button id="button">EMERGENCY</button>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <div class="container white-text">
+            © 2019 GO FAR, LLC. All Rights Reserved
+            <br>
+            Website Copyright Charlie Billadeau
+            <a class="white-text right" href="#!">Terms of Service</a>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+  </main>
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="js/scripts.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  <script src="js/smooth-scroll.js"></script>
+  <script>
+    var scroll = new SmoothScroll('a[href*="#"]');
+  </script>
+  <script src="js/wow.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
+</body>
+</html>
