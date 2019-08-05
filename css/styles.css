@@ -199,11 +199,20 @@ i.large.material-icons {
 
 @media only screen and (max-width: 1024px) {
   h1.headline {
-    margin: 20px 40px 0 40px;
+    margin: 80px 40px 0 40px;
   }
   .who {
     background-color: rgba(0,0,0,0.2);
     color: white;
+  }
+ .landing {
+   margin-top: 30px;
+    background-image: url("images/sanfran.jpg");
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 .snow {
     margin-top: 30px;
