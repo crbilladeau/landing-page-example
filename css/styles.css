@@ -201,7 +201,7 @@ i.large.material-icons {
   h1.headline {
     margin: 20px 40px 0 40px;
   }
-.parallax.snow {
+.snow {
     margin-top: 30px;
     background-image: url("images/snow.jpg");
     height: 500px;
@@ -210,7 +210,7 @@ i.large.material-icons {
     background-repeat: no-repeat;
     background-size: cover;
   }
-  .parallax.sf {
+  .sf {
     margin-top: 30px;
     background-image: url("images/sanfran2.jpg");
     height: 500px;
