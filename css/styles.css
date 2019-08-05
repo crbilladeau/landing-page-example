@@ -202,6 +202,6 @@ i.large.material-icons {
     margin: 20px 40px 0 40px;
   }
     .parallax {
-    background-attachment: fixed;
+    background-attachment: inherit;
   }
 }
