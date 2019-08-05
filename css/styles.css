@@ -196,3 +196,9 @@ i.large.material-icons {
 .faq {
   color: #e90000;
 }
+
+@media only screen and (max-width: 600px) {
+    .parallax-container {
+        height: 150px;
+    }
+}
