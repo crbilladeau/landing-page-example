@@ -8,6 +8,6 @@ parallax functions).
 I utilized the following CSS frameworks and libraries:
 
 <li>Materialize CSS</li>
--Animate CSS
--WOWjs
+<li>Animate CSS</li>
+<li>WOWjs</li>
 
