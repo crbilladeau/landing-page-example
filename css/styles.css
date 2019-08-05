@@ -199,7 +199,7 @@ i.large.material-icons {
 
 @media only screen and (max-width: 600px) {
   h1.headline {
-    margin: 100px 40px 0 40px;
+    margin: 20px 40px 0 40px;
   }
     .parallax {
     background-attachment: fixed;
