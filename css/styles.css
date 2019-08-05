@@ -201,4 +201,7 @@ i.large.material-icons {
     .parallax-container {
         height: 150px;
     }
+      h1.headline {
+      margin: 100px 40px 0 40px;
+    }
 }
