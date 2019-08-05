@@ -7,7 +7,7 @@ parallax functions).
 
 I utilized the following CSS frameworks and libraries:
 
--Materialize CSS
+<li>Materialize CSS</li>
 -Animate CSS
 -WOWjs
 
