@@ -1,4 +1,4 @@
-# landing-page-example
+# Example Professional Business Landing Page
 
 This is an example business landing page for a fake travel agency. The purpose of this site is to show a clean, 
 eye-catching landing page with different sections, stylized for smooth scrolling and ease of use. It is fully mobile-responsive, 
