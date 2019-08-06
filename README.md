@@ -5,6 +5,10 @@ eye-catching landing page with different informational sections, stylized for sm
 It is fully mobile-responsive, with parallax disabled for mobile devices (due to an unfortunate jitter with Materialize's 
 parallax functions).
 
+You can view it here:
+
+https://crbilladeau.github.io/landing-page-example/
+
 I utilized the following CSS frameworks and libraries:
 
 <li>Materialize CSS</li>
