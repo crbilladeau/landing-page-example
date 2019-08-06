@@ -11,3 +11,4 @@ I utilized the following CSS frameworks and libraries:
 <li>Animate CSS</li>
 <li>WOWjs</li>
 
+Also, this site uses only photography I have taken personally, which I think is a nice feature.
