@@ -14,5 +14,5 @@ I utilized the following CSS frameworks and libraries:
 <li>Materialize CSS</li>
 <li>Animate CSS</li>
 <li>WOWjs</li>
-
+<br>
 Also, this site uses only photography I have taken personally, which I think is a nice feature.
