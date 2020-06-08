@@ -1,4 +1,4 @@
-# Professional Business Landing Page
+# GO FAR Travel Agency - Professional Business Landing Page
 
 This is an example landing page for a fake travel agency. The goal of this site was to show a clean, 
 eye-catching landing page with different informational sections, stylized for smooth scrolling and ease of use. 
