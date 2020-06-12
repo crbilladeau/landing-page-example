@@ -54,6 +54,7 @@ img.logo {
   justify-content: center;
   align-items: center;
   padding: 50px 0 50px 0;
+
 }
 
 h1.headline  {
@@ -119,7 +120,7 @@ h1.headline  {
   padding: 40px 60px 40px 60px;
   color: #686868;
   margin-top: 8em;
-  margin-bottom: 8em;
+  margin-bottom: 12em;
   max-height: 700px;
 }
 
