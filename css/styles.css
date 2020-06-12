@@ -47,7 +47,7 @@ img.logo {
   height: 100vh;
 }
 
-#landing, #subscribe {
+#landing, #subscribe, #about {
   display: flex;
   flex-direction: column;
   height:100%;
