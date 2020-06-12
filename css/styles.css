@@ -18,15 +18,6 @@ body {
 
 }
 
-.container {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  height:100%;
-  justify-content: flex-start;
-  align-items: center;
-}
-
 .main-nav a.brand {
   margin-left: 5px;
   font-size: 2em;
