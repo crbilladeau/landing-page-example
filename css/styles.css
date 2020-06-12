@@ -9,7 +9,6 @@ body {
   color: #797979;
   font-family: 'Crimson Pro', serif;
   line-height: 1.5;
-  width: 100%;
   height: 100%;
 }
 
@@ -48,10 +47,9 @@ img.logo {
   height: 100vh;
 }
 
-#landing, #subscribe, {
+#landing, #subscribe {
   display: flex;
   flex-direction: column;
-  width: 100%;
   height:100%;
   justify-content: center;
   align-items: center;
@@ -120,8 +118,9 @@ h1.headline  {
   border-radius: 10px;
   padding: 40px 60px 40px 60px;
   color: #686868;
-  margin-top: 2em;
-  margin-bottom: 2em;
+  margin-top: 8em;
+  margin-bottom: 8em;
+  max-height: 700px;
 }
 
 .who h2 {
@@ -236,6 +235,6 @@ i.large.material-icons {
 
 @media only screen and (min-width: 480px) {
   .who {
-    margin-top: 6m;
-    margin-bottom: 6em;
+    margin-top: 4em;
+    margin-bottom: 4em;
 }
