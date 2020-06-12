@@ -18,6 +18,15 @@ body {
 
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height:100%;
+  justify-content: flex-start;
+  align-items: center;
+}
+
 .main-nav a.brand {
   margin-left: 5px;
   font-size: 2em;
@@ -113,15 +122,6 @@ h1.headline  {
 
 .card {
   animation-duration: 2s;
-}
-
-.row {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  height:100%;
-  justify-content: flex-start;
-  align-items: center;
 }
 
 .who {
