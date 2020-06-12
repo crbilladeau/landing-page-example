@@ -114,7 +114,7 @@ h1.headline  {
   animation-duration: 2s;
 }
 
-.who {
+.who wow fadeIn slower {
   border: 1px solid rgba(0,0,0,0.4);
   border-radius: 10px;
   padding: 20px 60px 20px 60px;
