@@ -17,9 +17,19 @@ body {
 
 }
 
+.main-nav {
+  height: 100px;
+}
+
 .main-nav a.brand {
   margin-left: 5px;
   font-size: 2em;
+}
+
+nav .nav-wrapper {
+    position: relative;
+    height: 100%;
+    margin-top: 2em;
 }
 
 img.logo {
