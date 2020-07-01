@@ -93,13 +93,22 @@ h1.headline  {
 }
 
 
-#adventures, #perks {
+#adventures {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   height: 100%;
   border-bottom: 1px solid rgba(0,0,0,0.3);
+  border-top: 1px solid rgba(0,0,0,0.3);
+}
+
+#perks {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
   border-top: 1px solid rgba(0,0,0,0.3);
 }
 
